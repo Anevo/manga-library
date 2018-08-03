@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.h1 {
+    color: white;
+}
+
+.wrapper {
+    padding: 40px;
+    width: 1000px;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+}
