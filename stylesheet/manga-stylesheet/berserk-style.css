@@ -1,0 +1,24 @@
+.berserk {
+    border: 1px solid black;
+    margin: 165px 300px 0 300px;
+}
+
+.berserk-content {
+
+}
+
+.berserk-content p {
+    position: relative;
+    color: black;
+    margin-top: 20px;
+    margin-left: 400px;
+    max-width: 720px;
+}
+
+.berserk-content h1 {
+    position: relative;
+    color: black;
+    font-size: 24px;
+    font-family: monospace;
+    text-align: left;
+}

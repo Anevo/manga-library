@@ -1,0 +1,68 @@
+.contact-content {
+    width: 1400px;
+    margin-top: 0px;
+}
+
+.contact-content p {
+    position: relative;
+    color: black;
+    margin: 20px 0 0 1000px;
+}
+
+.contact-content h1 {
+    position: relative;
+    color: black;
+    font-size: 48px;
+    font-family: monospace;
+    text-align: left;
+    margin: 165px 0 0 420px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin: 6px 0 16px 0;
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #E18A07;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: rgb(182, 111, 6);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    position: relative;
+    z-index: 10;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px 400px 0 0;
+}
+.form-background{
+    background-image: url("../assets/fairy-tail.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 200px 0 250px;
+    height: 700px;
+}
+
+label {
+    color: black;   
+    font-size: 18px;
+}

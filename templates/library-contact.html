@@ -7,43 +7,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../stylesheet/style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/header.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/contact-style.css">
     <title>Contact</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="sliding-background">
-                <div class="header">
-                    <div class="main-nav" id="nav">
-                        <ul>
-                            <li>
-                                <a href="mainpage.html">HOME</a>
-                            </li>
-                            <li>
-                                <a href="library-about.html">ABOUT</a>
-                            </li>
-                            <li class="active">
-                                <a href="">CONTACT</a>
-                            </li>
-                            <li>
-                                <a href="library-news.html">NEWS</a>
-                            </li>
-                        </ul>
+    <div class=wrapper>
+        <header>
+            <div class="header">
+                <div class="main-nav" id="nav">
+                    <div style="position: relative; left: 0; top: 0;">
+                        <img src="../assets/logo.png" align="left" ; style="margin:auto" ; width="100px" ; height="80px" ; display="block" ; class="white-logo"
+                        />
+                        <img src="../assets/logo-black.png" align="left" ; style="margin:auto" ; width="100px" ; height="80px" ; display="block"
+                            ; class="black-logo" />
                     </div>
+                    <ul>
+                        <li>
+                            <a href="mainpage.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="library-about.html">ABOUT</a>
+                        </li>
+                        <li class="active">
+                            <a href="">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="library-news.html">NEWS</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="hero">
-                    <h1>Contact Us</h1>
-                </div>
-
-
-
-
-
             </div>
-    </header>
-    <script src="../scripts/index.js"></script>
+        </header>
+
+        <div class="contact-content">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="form-background">
+        <div class="container">
+                <form id="contactForm">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="ireland">Ireland</option>
+                    <option value="spain">Spain</option>
+                    <option value="romania">Romania</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+              </div>
+
+    </div>
+
 
 </body>
+<script src="../scripts/index.js"></script>
+<script src="../scripts/contact-form.js"></script>
 
 </html>

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    background-color:transparent;  
+    text-align: center;
+    line-height: 40px;
+}
+
+.main-nav.active {
+    background: #000;
+}
+
+.main-nav li {
+    display: inline-block;
+    font-family: monospace;
+    color: black;
+    list-style-type: none;
+    line-height: 50px;
+
+}
+
+.main-nav a {
+    display: block;
+    color: black;
+}
+
+.main-nav ul li {
+    list-style-type: none;
+	display:inline-block;
+	padding: 10px 50px;
+	color: black;
+	font-size: 24px;
+	font-family: monospace;
+	border-radius:10px;
+	transition: .5s;
+}
+
+.main-nav li.active a {
+    color: #E18A07 !important;
+    border-bottom: 2px solid #E18A07;
+}
+
+.main-nav li a {
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover{
+    color: #E18A07;
+}
+
+.main-nav ul li:hover {
+    cursor: pointer;
+}
+
+.header {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.white-logo {
+    position: absolute;
+    width: 100px ; 
+    height: 70px;
+    display: block;
+    z-index: 0;
+}
+
+.black-logo {
+    position: absolute;
+    width: 100px; 
+    height: 70px;
+    display: block;
+    z-index: 10;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.black-text-color{
+    color: black;
+}
+
+.white-text-color {
+    color: white !important;
+}

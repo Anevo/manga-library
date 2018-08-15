@@ -6,52 +6,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../stylesheet/style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/primary-style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/header.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/mainpage-style.css">
     <title>Your personal library</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="sliding-background">
-                <div class="header">
-                    <div class="main-nav" id="nav">
-                        <ul>
-                            <li class="active">
-                                <a href="">HOME</a>
-                            </li>
-                            <li>
-                                <a href="library-about.html">ABOUT</a>
-                            </li>
-                            <li>
-                                <a href="library-contact.html">CONTACT</a>
-                            </li>
-                            <li>
-                                <a href="library-news.html">NEWS</a>
-                            </li>
-                        </ul>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <div class="main-nav" id="nav">
+                    <div style="position: relative; left: 0; top: 0;">
+                        <img src="../assets/logo.png" align="left" ; style="margin:auto" ; width="100px" ; height="80px" ; display="block" ; class="white-logo"
+                        />
+                        <img src="../assets/logo-black.png" align="left" ; style="margin:auto" ; width="100px" ; height="80px" ; display="block"
+                            ; class="black-logo" />
                     </div>
-                    
-                    <div class="hero">
-                        <h1>Welcome!</h1>
-                        <p>We are a team of devs with a common passion, manga! <br>
-                        And we decided to create, for you and for us, a huge library <br>
-                    with the newest and oldest manga we can find!</p>
-                    </div>
-
-                    <div class="main-grid">
-                            <div class="box a">A</div>
-                            <div class="box b">B</div>
-                            <div class="box c">C</div>
-                            <div class="box d">D</div>
-                            <div class="box e">E</div>
-                            <div class="box f">F</div>
-                        </div>
+                    <ul>
+                        <li class="active">
+                            <a href="">HOME</a>
+                        </li>
+                        <li>
+                            <a href="library-about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="library-contact.html">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="library-news.html">NEWS</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-    </header>
-    <script src="../scripts/index.js"></script>
+        </header>
 
+        <div class="mainpage-content">
+            <h1>Welcome!</h1>
+            <p>We are a team of devs with a common passion, manga!
+                <br> And we decided to create, for you and for us, a huge library
+                <br> with the newest and oldest manga we can find!</p>
+        </div>
+
+        <div class="main-grid">
+            <table border="1" color="white" width="100%" cellpadding="0" cellspacing="0" class="new-raking-list">
+                <tbody>
+                    <tr class="ranking-list">
+                        <td class="rank">
+                            <div class="flex-box">
+                                <div class="flex-image">
+                                    <a class="hoverinfo_trigger" href="../templates/manga-detail/manga-berserk-detail.html">
+                                        <img width="50" height="70" alt="Manga: Berserk" border="0" src="../assets/manga-cover/Berserk-Cover-Manga.png">
+                                    </a>
+                                </div>
+                                <div class="flex-text">
+                                    <p>
+                                        <a class="hoverinfo_trigger_name" href="https://myanimelist.net/manga/2/Berserk">
+                                            Berserk</a>
+                                        <br> Manga (? vols)
+                                        <br> Aug 1989 - present
+                                        <br> 198,467 members</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="score">
+                            <span class="text on">9.31 / 10</span>
+                        </td>
+                    </tr>
+                    <tr class="ranking-list">
+                        <td class="rank">
+                            <div class="flex-box">
+                                <div class="flex-image">
+                                    <a class="hoverinfo_trigger" href="../templates/manga-detail/manga-naruto-detail.html">
+                                        <img width="50" height="70" alt="Manga: Naruto" border="0" src="../assets/manga-cover/Naruto-cover-manga.jpg" />
+                                    </a>
+                                </div>
+                                <div class="flex-text">
+                                    <p>
+                                        <a class="hoverinfo_trigger_name" href=""> Naruto</a>
+                                        <br> Manga (72 vols)
+                                        <br> Sep 1999 - Nov 2014
+                                        <br> 261,091 members
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="score">
+                            <span class="text on">9.22 / 10</span>
+                        </td>
+                    </tr>
+                    <tr class="ranking-list">
+                        <td class="rank">
+                            <div class="flex-box">
+                                <div class="flex-image">
+                                    <a class="hoverinfo_trigger" href="../templates/manga-detail/manga-naruto-detail.html">
+                                        <img width="50" height="70" alt="Manga: Naruto" border="0" src="../assets/manga-cover/Jojo-Cover-Manga.jpg" />
+                                    </a>
+                                </div>
+                                <div class="flex-text">
+                                    <p>
+                                        <a class="hoverinfo_trigger_name" href=""> JoJo no Kimyou na Bouken Part 7: Steel Ball Run</a>
+                                        <br> Manga (24 vols)
+                                        <br> Jan 2004 - Apr 2011
+                                        <br> 42,496 members
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="score">
+                            <span class="text on">9.15 / 10</span>
+                        </td>
+                    </tr>
+                    <tr class="ranking-list">
+                        <td class="rank">
+                            <div class="flex-box">
+                                <div class="flex-image">
+                                    <a class="hoverinfo_trigger" href="../templates/manga-detail/manga-naruto-detail.html">
+                                        <img width="50" height="70" alt="Manga: Naruto" border="0" src="../assets/manga-cover/Fullmetal-Alchemist-cover-manga.jpg"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="flex-text">
+                                    <p>
+                                        <a class="hoverinfo_trigger_name" href=""> Fullmetal Alchemist</a>
+                                        <br> Manga (27 vols)
+                                        <br> Jul 2001 - Sep 2010
+                                        <br> 155,216 members
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="score">
+                            <span class="text on">9.13 / 10</span>
+                        </td>
+                    </tr>
+                    <tr class="ranking-list">
+                            <td class="rank">
+                                <div class="flex-box">
+                                    <div class="flex-image">
+                                        <a class="hoverinfo_trigger" href="../templates/manga-detail/manga-naruto-detail.html">
+                                            <img width="50" height="70" alt="Manga: Naruto" border="0" src="../assets/manga-cover/Monster-cover-manga.jpg"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="flex-text">
+                                        <p>
+                                            <a class="hoverinfo_trigger_name" href=""> Monster</a>
+                                            <br> Manga (18 vols)
+                                            <br> Dec 1994 - Dec 2001
+                                            <br> 69,264 members
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="score">
+                                <span class="text on">9.05 / 10</span>
+                            </td>
+                        </tr>
+                        <tr class="ranking-list">
+                                <td class="rank">
+                                    <div class="flex-box">
+                                        <div class="flex-image">
+                                            <a class="hoverinfo_trigger" href="../templates/manga-detail/manga-naruto-detail.html">
+                                                <img width="50" height="70" alt="Manga: Naruto" border="0" src="../assets/manga-cover/One-Piece-cover-manga.jpg"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="flex-text">
+                                            <p>
+                                                <a class="hoverinfo_trigger_name" href=""> One Piece</a>
+                                                <br> Manga (? vols)
+                                                <br> Jul 1997 - Present
+                                                <br> 215,773 members
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="score">
+                                    <span class="text on">9.05 / 10</span>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+        </div>
 </body>
+<script src="../scripts/index.js"></script>
 
 </html>
